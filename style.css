@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100&display=swap');
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ #container-all {
+  width: 950px;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 1%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+header,  h1 {
+  text-align: center;
+  color: #00CD00;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  line-height: 1px;
+}
+
+img {
+  width: 180px;
+  margin-top: 70px;
+}
+
+nav {
+  width: 80%;
+  height: 35px;
+  background-color: #00CD00;
+  margin-left: 80px;
+}
+
+button {
+  background: lightgray;
+  border: 1px solid black;
+  color: black;
+  font-size: 11px;
+  margin-top: 7px;
+}
+
+nav>button:first-child {
+    margin-left: 230px;
+  }
+
+section {
+  color: white;
+  margin:20px 80px;
+  font-size: 18px;
+}
+
+section span {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  line-height: 12px;
+}
+
+p>span {
+  font-size: 15px;
+}
+
+p {
+margin: 7px;
+}
+
+.Gino {
+  background-color: orange;
+  color: orange;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.Mike {
+  background-color:#00CD00 ;
+  color: #00CD00;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.Fede {
+  background-color: red;
+  color: red;
+  width: 110px;
+  border-radius: 5px;
+}
